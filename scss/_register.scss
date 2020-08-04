@@ -1,0 +1,137 @@
+@media (max-width: 768px) {
+    .register {
+        h2 {
+            position: relative;
+            color:$title-bottom;
+
+            &::before {
+                content: '';
+                position: absolute;
+                width: 150px;
+                height: 2px;
+                background: $title-bottom-text;
+                top: 19px;
+                right: 0;
+                bottom: 0;
+                vertical-align: middle;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 150px;
+                height: 2px;
+                background: $title-bottom-text;
+                top: 19px;
+                left: 0;
+                bottom: 0;
+                vertical-align: middle;
+            }
+        }
+    }
+
+
+    .form-group {
+        label {
+            font-size: 14px;
+            color: $title-bottom;
+        }
+
+        .form-control {
+            font-size: 14px;
+            &::placeholder {
+                font-size: 14px;
+            }
+        }
+
+        .custom-select {
+            font-size: 14px;
+            option {
+                font-size: 14px;
+            }
+        }
+        .input-group-text {
+            font-size: 14px;
+            border-right-width: 0px;
+        }
+    }
+
+    .term {
+        font-size: 14px;
+        a {
+            font-size: 14px;
+            color: $card-footer;
+            transition: .5s ease-in-out;
+            transition-property: color;
+            &:hover {
+                text-decoration: none;
+                color: $primary-color;
+            }
+        }
+    }
+
+    .sign-up {
+        @include sign-up;
+
+        width: 200px;
+        margin: 1rem 0 2rem;
+        padding: .75rem 0;
+    }
+
+    .have-account {
+        color: $title-bottom;
+        font-size: 14px;
+    }
+
+    .login {
+        h2 {
+            position: relative;
+            color:$title-bottom;
+            margin-bottom: 2rem;
+
+            &::before {
+                content: '';
+                position: absolute;
+                width: 150px;
+                height: 2px;
+                background: $title-bottom-text;
+                top: 19px;
+                right: 0;
+                bottom: 0;
+                vertical-align: middle;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 150px;
+                height: 2px;
+                background: $title-bottom-text;
+                top: 19px;
+                left: 0;
+                bottom: 0;
+                vertical-align: middle;
+            }
+        }
+
+        p {
+            font-size: 14px;
+            color: #747D8C;
+        }
+    }
+}
+
+
+.login {
+    h2 {
+        margin-bottom: 2rem;
+    }
+}
+
+.sign-up {
+    @include sign-up;
+
+    width: 200px;
+    margin: 1rem 0 2.5rem;
+    padding: .75rem 0;
+}

@@ -1,0 +1,123 @@
+@media (max-width: 768px) {
+    .sidebar {
+        left: -200px;
+
+        .cross {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 30px;
+            cursor: pointer;
+        }
+    }
+
+    .change {
+        left: 0;
+        z-index: 9876;
+        top: 0;
+        transition: left .8s cubic-bezier(1, 0, 0, 1);
+        width: 100%;
+    }
+
+    .header {
+        margin-left: 0;
+        width: 100%;
+        vertical-align: middle;
+        background: $white;
+        box-shadow: 10px 1px 5px rgba(0, 0, 0, .2);
+
+        .hamburger {
+            position: absolute;
+            left: 20px;
+            top: 60px;
+            vertical-align: middle;
+            color: $hamburger-background;
+            cursor: pointer;
+        }
+
+        .logo {
+            margin-left: 130px;
+            margin-right: 0;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+
+    .main {
+        margin-left: 0;
+        width: 100%;
+
+        .account {
+            .stardom {
+                @include stardom;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    main {
+        .footerFont {
+            font-size: 11px;
+        }
+    }
+
+    p {
+        font-size: 13px !important;
+    }
+
+    h5 {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    th {
+        font-size: 11px;
+    }
+
+    td {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header {
+        .logo {
+            margin-left: 100px;
+        }
+    }
+
+    p {
+        font-size: 12px !important;
+    }
+
+    .feature {
+        .card {
+            .card-body {
+                h3 {
+                    padding: 16px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .header {
+        .logo {
+            margin-left: 60px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        .logo {
+            margin-left: 30px;
+        }
+    }
+}

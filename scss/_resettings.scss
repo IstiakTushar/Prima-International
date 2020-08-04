@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: normal !important;
+    overflow-x: hidden;
+    line-height: 1.4;
+    background: $body-background;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+h4 {
+    color: #57606F;
+}
+
+.form-control, .custom-select, .custom-file-input, .custom-file {
+    &:focus {
+        box-shadow: none;
+        outline: none;
+        border-color: #ccc;
+    }
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.margin-left {
+    margin-left: 200px;
+}
+
+p {
+    margin: 0;
+}
+
+.btn {
+    &:focus {
+        box-shadow: none;
+        outline: none;
+    }
+}

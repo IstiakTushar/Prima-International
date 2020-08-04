@@ -1,0 +1,43 @@
+.lang {
+    select {
+        border: solid 1px $primary-color;
+        color: $primary-color;
+
+        &:focus {
+            border-color: $primary-color;
+            color: $primary-color;
+        }
+    }
+}
+
+.image-input {
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    background: url(../images/imageInput.png) no-repeat center center/cover;
+    margin: 20px;
+    border: 0;
+}
+
+.image-input-bg {
+    background: #F5F8FD;
+    padding: 30px;
+
+    label {
+        font-size: 18px;
+        display: block;
+    }
+
+    small {
+        font-weight: bold;
+    }
+}
+
+.serial {
+    span {
+        color: #2F3542;
+        background: #EBF2FB;
+        padding: .5rem;
+        border-radius: 5px;
+    }
+}

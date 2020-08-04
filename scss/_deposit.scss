@@ -1,0 +1,85 @@
+.main {
+    width: calc(100% - 200px);
+    margin-left: 200px;
+    margin-top: 130px;
+
+    .card {
+        .card-header {
+            padding: 20px;
+            .prof {
+                background: #EBF5FC;
+                color: #3A7BD5;
+                text-align: center;
+                border-radius: 5px;
+                padding: 8px 10px;
+                margin-right: 10px;
+            }
+            span {
+                font-size: 18px;
+            }
+        }
+
+        .card-body {
+            .forgotPin {
+                .pin {
+                    background: #E8ECF7;
+                    color: #4279BC;
+                    padding: .5rem;
+                    margin-bottom: .5rem;
+                    border-radius: 10px;
+                }
+            }
+
+            table {
+                font-size: 13px;
+                a {
+                    color: #4279BC;
+                }
+                thead {
+                    background: #F7FAFC;;
+                }
+            }
+
+            form {
+                .darken {
+                    background: #F7FAFC;
+                    padding: 20px;
+                }
+            }
+
+            .amount {
+                background: #F7FAFC;
+                padding: 30px;
+                border-radius: 15px;
+                .total {
+                    span {
+                        font-size: 12px;
+                    }
+                    p {
+                        background: $white;
+                        border-radius: 10px;
+                        padding: 15px;
+                        font-size: 12px;
+                        margin-top: 16px;
+                    }
+                }
+            }
+
+            .btn-otp {
+                background: #E8ECF7;
+                color: #4279BC;
+
+                &:hover {
+                    color: #E8ECF7;
+                    background: #4279BC;
+                }
+            }
+
+            .roundes {
+                background: #F7FAFC;
+                padding: .5rem;
+                border-radius: 5px;
+            }
+        }
+    }
+}
